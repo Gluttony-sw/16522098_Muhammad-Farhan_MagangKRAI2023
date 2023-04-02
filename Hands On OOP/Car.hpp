@@ -28,7 +28,7 @@ class Car: public Vehicle{
         void setJumlahPenumpang(int jumlahPenumpang);
 
         //FUngsi tambahan
-        void loadPenumpng(int nPenumpang);
+        void loadPenumpang(int nPenumpang);
         void printInfo();
 
 };

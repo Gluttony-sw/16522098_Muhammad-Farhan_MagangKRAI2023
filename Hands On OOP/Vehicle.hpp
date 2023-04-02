@@ -1,3 +1,4 @@
+#ifndef __VEHICLE_HPP__
 #define __VEHICLE_HPP__
 #include <iostream>
 using namespace std;
@@ -42,3 +43,5 @@ class Vehicle {
         void drive();        
 
 };
+
+#endif

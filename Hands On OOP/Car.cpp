@@ -46,7 +46,7 @@ void Car :: printInfo(){
 
 }
 
-void Car :: loadPenumpng(int nPenumpang){
+void Car :: loadPenumpang(int nPenumpang){
     if(nPenumpang > this->banyakKursi){
         cout << "Kursi mobil tidak cukup" << endl;
     } else {

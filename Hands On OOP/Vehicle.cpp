@@ -2,7 +2,7 @@
 
 Vehicle :: Vehicle() {
     this->tahunProduksi = 0;
-    this->merek = "Fulan";
+    this->merek = "Mulan Jamila";
     this->jumlahRoda = 0;    
     this->warna = "None"; 
 }
