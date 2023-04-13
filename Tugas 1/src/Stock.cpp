@@ -1,0 +1,1 @@
+#include "../header/Stock.hpp"
