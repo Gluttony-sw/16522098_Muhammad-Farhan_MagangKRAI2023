@@ -12,6 +12,7 @@ class Company {
         string email;
         string sector; // IT, Manufacturing, etc
         bool profitable;
+        
     public:
         // ctor
         Company(); // default ctor

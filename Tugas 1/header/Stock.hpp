@@ -8,7 +8,7 @@ class Stock {
     private:
         // attributes
         string code;
-        int price;
+        unsigned long price;
         int quantity;
         Company company;
 

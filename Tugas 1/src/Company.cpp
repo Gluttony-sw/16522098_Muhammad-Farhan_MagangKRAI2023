@@ -35,8 +35,15 @@ Company :: Company(const Company& other){
 Company :: ~Company(){}
 
 // assignment operator
-Company& Company::operator=(const Company& other){
-    *this = Company(other);
+Company& Company::operator=(const Company& other) {
+    if (this != &other) {
+        this->name = other.name;
+        this->address = other.address;
+        this->phone = other.phone;
+        this->email = other.email;
+        this->sector = other.sector;
+        this->profitable = other.profitable;
+    }
     return *this;
 }
 
