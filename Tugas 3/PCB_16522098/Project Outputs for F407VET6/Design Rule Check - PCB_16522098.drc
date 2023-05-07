@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : D:\1. Cloud\OneDrive - Institut Teknologi Bandung\A. ITB-STEI\@Activities\URO 2023\2_Magang_KRAI\Day 3 - PCB\TugasPCB_Day3_Magang1KRAI\PCB_16522098\PCB_16522098.PcbDoc
-Date     : 02/05/2023
-Time     : 23:14:19
+PCB File : D:\1. Cloud\OneDrive - Institut Teknologi Bandung\A. ITB-STEI\@Activities\URO 2023\2_Magang_KRAI\16522098_Muhammad-Farhan_MagangKRAI2023\Tugas 3\PCB_16522098\PCB_16522098.PcbDoc
+Date     : 07/05/2023
+Time     : 23:38:12
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -25,19 +25,17 @@ Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Co
 Rule Violations :0
 
 Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
-Rule Violations :0
+   Violation between Hole Size Constraint: (118.11mil > 100mil) Via (2430mil,1405mil) from Top Layer to Bottom Layer Actual Hole Size = 118.11mil
+   Violation between Hole Size Constraint: (118.11mil > 100mil) Via (2445mil,5955mil) from Top Layer to Bottom Layer Actual Hole Size = 118.11mil
+   Violation between Hole Size Constraint: (118.11mil > 100mil) Via (6305mil,1405mil) from Top Layer to Bottom Layer Actual Hole Size = 118.11mil
+   Violation between Hole Size Constraint: (118.11mil > 100mil) Via (6325mil,5965mil) from Top Layer to Bottom Layer Actual Hole Size = 118.11mil
+Rule Violations :4
 
 Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (2.711mil < 10mil) Between Pad Digital_2-3(4025mil,5795mil) on Multi-Layer And Via (3975mil,5745mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [2.711mil] / [Bottom Solder] Mask Sliver [2.711mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.711mil < 10mil) Between Pad Digital_2-4(4025mil,5695mil) on Multi-Layer And Via (3975mil,5745mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [2.711mil] / [Bottom Solder] Mask Sliver [2.711mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.711mil < 10mil) Between Pad Digital_2-5(3925mil,5795mil) on Multi-Layer And Via (3975mil,5745mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [2.711mil] / [Bottom Solder] Mask Sliver [2.711mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.711mil < 10mil) Between Pad Digital_2-6(3925mil,5695mil) on Multi-Layer And Via (3975mil,5745mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [2.711mil] / [Bottom Solder] Mask Sliver [2.711mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (3.021mil < 10mil) Between Pad Encoder_2-6(5045mil,1660mil) on Multi-Layer And Via (5033mil,1730mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [3.021mil] / [Bottom Solder] Mask Sliver [3.021mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (4.068mil < 10mil) Between Via (4583mil,4697mil) from Top Layer to Bottom Layer And Via (4643mil,4681.112mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [4.068mil] / [Bottom Solder] Mask Sliver [4.068mil]
-Rule Violations :6
+Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
    Violation between Silk To Solder Mask Clearance Constraint: (1.703mil < 10mil) Between Pad *-3V3(3735.74mil,4884.332mil) on Multi-Layer And Track (3695.084mil,2585.002mil)(3695.084mil,5185.002mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.703mil]
@@ -108,12 +106,16 @@ Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
 Rule Violations :2
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
-Rule Violations :0
+   Violation between Net Antennae: Via (2430mil,1405mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (2445mil,5955mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (6305mil,1405mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (6325mil,5965mil) from Top Layer to Bottom Layer 
+Rule Violations :4
 
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 68
+Violations Detected : 70
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
